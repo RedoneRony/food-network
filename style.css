@@ -1,0 +1,157 @@
+/* body style */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  height: 100vh;
+}
+
+/* span color style */
+.orange-color {
+  color: orange;
+}
+
+/* half width class style */
+.half-width {
+  width: 50%;
+  padding: 2%;
+}
+.half-width h1 {
+  padding-top: 150px;
+  font-size: 50px;
+}
+.half-width h4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.half-width img {
+  width: 90%;
+  padding-top: 20px;
+}
+
+.half-width h3 {
+  color: #7e5b45;
+  padding-top: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.half-width p {
+  margin-bottom: 100px;
+}
+
+/* flexible container use for set the division in flex position */
+.flexible-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+/* button style */
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 12px;
+}
+
+/* about me section class style */
+.about-me {
+  display: flex;
+  background-image: url("./shapes/7.png");
+  background-size: cover;
+  height: 465px;
+}
+.about-me img {
+  width: 42%;
+  padding-left: 30%;
+}
+
+/* my receipe section full style  */
+.my-receipe {
+  height: 950px;
+  width: 100%;
+}
+#ex {
+  text-align: center;
+  color: black;
+  padding-top: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.my-receipe p {
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.food-item {
+  box-shadow: -1px 3px 6px 0px rgba(0, 0, 0, 0.75);
+  width: 33%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 80px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.food-item img {
+  padding-top: 10px;
+  width: 90%;
+  height: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fih3 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+.food-item p {
+  text-align: justify;
+  float: left;
+}
+
+/* container class under food item class */
+.container {
+  display: flex;
+  box-shadow: -1px 3px 6px 0px rgba(0, 0, 0, 0.75);
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.container-div {
+  width: 33%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+}
+.container-div h2 {
+  text-align: center;
+}
+.container-div p {
+  text-align: center;
+}
+
+/* footer style */
+footer {
+  background: #000;
+  display: block;
+}
+footer h3 {
+  color: #7e5b45;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+footer span {
+  padding-right: 15px;
+}
+footer p {
+  color: white;
+  text-align: center;
+  padding-bottom: 60px;
+}
